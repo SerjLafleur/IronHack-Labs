@@ -1,0 +1,25 @@
+require('dotenv').config()
+
+// Database
+require('./configs/mongoose.config')
+
+// Debugger
+require('./configs/debugger.config')
+
+// App
+const express = require('express')
+const app = express()
+
+// usando la carpeta public para pintar imagen o texto en index.hbs
+app.use(express.static('public'))
+
+// Configs
+require('./configs/preformatter.config')(app)
+require('./configs/middleware.config')(app)
+require('./configs/views.configs')(app)
+require('./configs/locals.config')(app)
+
+// Routes index
+require('./routes')(app)
+
+module.exports = app

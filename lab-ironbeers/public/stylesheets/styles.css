@@ -1,0 +1,54 @@
+/*
+white: #f7f9f9;
+light-blue: #2081c3;
+dark-blue: #0a2c42;
+grey: #bfbfbf;
+font-family: Arial, Helvetica, sans-serif;
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    margin-bottom: 30px;
+}
+
+.img-index {
+    margin-top: 60px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 30px;
+  
+}
+
+p {
+    width: 80%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.py-3{
+    color: white;
+}
+
+.menu {
+    margin-bottom: 50px;
+}
+
+
+.btn1 {
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    margin-bottom: 30px;
+}
